@@ -38,6 +38,8 @@
 // objectList.c = "c"
 // console.log(objectList);
 
+
+// // 함수 내에서만 유효
 // function func() {
 //     if (true) {
 //         var a = 'a';
@@ -47,10 +49,10 @@
 // }
 
 // func();
-// console.log(a); // ReferenceError: a is not defined
+// // console.log(a); // ReferenceError: a is not defined
 
 
-
+// // 블록 내부에서만 유효
 // function func() {
 //     if (true) {
 //         let a = 'a';
@@ -58,11 +60,11 @@
 //     }
 //     console.log(a); // ReferenceError: a is not defined
 // }
+// // func();
+// // console.log(a); // ReferenceError: a is not defined
 
-// console.log(a); // ReferenceError: a is not defined
-
-// let hello;
-// console.log(hello);
+// // let hello;
+// // console.log(hello);
 
 
 
