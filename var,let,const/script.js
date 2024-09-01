@@ -74,11 +74,12 @@
 
 
 // console.log(greeting);
-// // Uncaught ReferenceError: Cannot access 'greeting' before initialization
-// const greeting = "hello";
+// undefined
+// var greeting = "hello";
 
+// Uncaught ReferenceError: Cannot access 'greeting' before initialization
+// const greeting = "hello";
 // console.log(greeting);
-// // undefined
 // let greeting = "hello";
 
 // func(); //hoisting test
